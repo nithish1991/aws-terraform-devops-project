@@ -17,8 +17,6 @@ It is a vital component of terraform and it ideal to store in secured and center
 statefile locking
 
 A mechanism to restrict to use terrform state file similateously by the team. Enabling statefile locking for the statefile will allow only one user to exacute the terraform file. 
-Dynamodb is used to implement statefile locking 
-s3 is used the remote backend to store the statefile
 
 This repository contains Infrastructure as Code (IaC) for deploying a production grade DevOps Project Demo application on AWS.
 It provisions S3 as a remote backend for storing the terraform statefile and locking mechanism, and creating EKS Cluster and VPC for the application.
