@@ -1,5 +1,4 @@
-## Provision a Production-Style EKS Cluster on AWS with Terraform (VPC, Modules and S3 Remote State)
-
+## Terraform S3 State Locking Without DynamoDB: Building a VPC + EKS Cluster on AWS
 If you have ever run terraform apply from your laptop and then wondered what happens when a teammate does the same thing, this post is for you.
 
 In this walkthrough we will build, from scratch and with Terraform:
